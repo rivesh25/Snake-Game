@@ -4,12 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Game | Using HTML, CSS, and JavaScript</title>
+    <meta name="description" content="Snake Game – Neon Edition. A classic snake game with a neon visual style.">
+    <title>Snake Game | Neon Edition</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-
+    <div class="body">
+        <div class="game-title">Snake</div>
+        <div class="score-wrapper">
+            <div id="scoreBox">Score: 0</div>
+            <div id="hiscoreBox">HiScore: 0</div>
+        </div>
+        <div id="board"></div>
+        <div class="hint-text">Press any arrow key to start</div>
+    </div>
     <script src="./scripts.js"></script>
 </body>
 
